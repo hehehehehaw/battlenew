@@ -118,6 +118,13 @@ y3 = randint(0, 1)
 let xy3 = game.createSprite(x3, y3)
 let xy2 = game.createSprite(x2, y2)
 let xy1 = game.createSprite(x1, y1)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
 basic.forever(function () {
     Target = game.createSprite(TX, TY)
     basic.pause(200)
